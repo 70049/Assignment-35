@@ -1,0 +1,60 @@
+Q1.   In the following shopping cart add,remove,edit item const shoppingcart=["Milk","Coffee","Tea","Honey"];
+        a. add meat at the Begning of your shopping cart if it has not been already added.
+        b. add Suger at the end.
+        c. remove Honey if you are allergic to honey.
+        d. modify Tea to Green Tea.
+        
+Ans.  const shoppingcart=["Milk","Coffee","Tea","Honey"];
+      shoppingcart.unshift("Meat");
+      console.log(shoppingcart);
+      
+      shoppingcart.push("Suger");
+      console.log(shoppingcart.slice(3,4));
+
+Q2.   In the webTechs array check if saas exist in the array and if it is exist print 'Saas is a CSS Preprosessor'.
+       If it's doesn't exist add saas to the array and print the array.
+Ans.   let arr=["Meat","Suger","Honey","Pasta","Saas"];
+       console.log(arr.includes("Saas"));
+       console.log(`
+           ${"Saas "}Is a CSS Preprocessor
+           `);
+Q3.   The following is an array of 10 student's Ages.
+        Const age=[19,22,19,24,20,25,26,24,25,24];
+          . Sort the array and find the min and max age
+          . Find the median age 
+          . Find the average all.
+          . Compare the value of min average and max average,Use abs method()
+Ans.   const age=[19,22,19,24,20,25,26,24,25,24];
+        console.log(age.sort());   
+        
+Q4.   Print the array like as a sentence:Google,Facebook,Amazon,Microsoft,IBM,Oracle and Apple are the Big IT Companies.
+Ans.    const companies=["Google","Facebook","Amazon","Microsoft","IBM","Oracle","Apple"];
+         console.log(`
+             ${companies} are the Big IT Companies.
+          `);
+Q5.   Change the all company name in uppercase one by one and print them out.
+Ans.    
+        const companies=["Google","Facebook","Amazon","Microsoft","IBM","Oracle","Apple"];
+        let companies=[];
+        for(let i=0;i<company.length;i++){
+            companies.push(company[i].toUpperCase());
+        }
+        console.log(companies);
+        
+Q6.   Devlope a small Script which generate any number of Character id.
+Ans.   
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
