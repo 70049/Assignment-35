@@ -43,7 +43,33 @@ Ans.
         
 Q6.   Devlope a small Script which generate any number of Character id.
 Ans.   
-           
+
+Q7.
+Ans.
+
+Q8.   This is a fruit array name["banana","Mango","lemon","Orange"] reverse this fruit Array without using reverse function.
+Ans.    const fruit=["banana","Mango","lemon","Orange"];
+        const newFruit=[];
+        for(let i=fruit.lenth-1;i>=0;i--){
+              newFruit.push(fruit[i]);
+              }
+        console.log(newFruit);
+
+Q9.   Iterate through the array ["HTML","CSS","JS","React","Redux","NOde","Express","MongoDB"] using a for loop and for of loop
+           and print out the item.
+Ans.   let arr=["HTML","CSS","JS","React","Redux","NOde","Express","MongoDB"];
+       for(let i=0;i<arr.length;i++){
+             console.log(arr[i]);}
+             
+        let arr=let arr=["HTML","CSS","JS","React","Redux","NOde","Express","MongoDB"];
+         for(let i of arr){
+             console.log(i);
+         }     
+              
+Q10.  Create a humamn readable time format using the date time object.
+Ans.     let now=new Date();
+         console.log(now.toString());
+         
            
            
            
