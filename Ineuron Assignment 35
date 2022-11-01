@@ -25,7 +25,15 @@ Q3.   The following is an array of 10 student's Ages.
           . Find the average all.
           . Compare the value of min average and max average,Use abs method()
 Ans.   const age=[19,22,19,24,20,25,26,24,25,24];
-        console.log(age.sort());   
+        console.log(age.sort());  
+        console.log("Minimum age is" +Math.min(...age));
+        console.log("Maximum age is" +Math.max(...age));
+        
+        sum=0;
+        for(let i of age){
+           sum=sum_i}
+        let average=sum/age.length;
+        console.log(average);
         
 Q4.   Print the array like as a sentence:Google,Facebook,Amazon,Microsoft,IBM,Oracle and Apple are the Big IT Companies.
 Ans.    const companies=["Google","Facebook","Amazon","Microsoft","IBM","Oracle","Apple"];
@@ -42,10 +50,18 @@ Ans.
         console.log(companies);
         
 Q6.   Devlope a small Script which generate any number of Character id.
-Ans.   
+Ans.   let result='';
+       let value="abcdefghijklmnopqrstuvwxyz1234567890";
+       for(let i=0;i<=5;i++){
+          result += value.charAt(Math.floor(math.random()*value.length));}
+       console.log(result);
 
-Q7.
-Ans.
+Q7.  Write a script which generate hexadecimal number.
+Ans.   let result='';
+        let value='ABCDEFGHIJKMNOPQRSTUVWXYZ';
+        for(let =0;i<=5;i++){
+            result +=value.charAt(math.floor(Math.rendom()* value.lemgth));}
+        console.log(result);
 
 Q8.   This is a fruit array name["banana","Mango","lemon","Orange"] reverse this fruit Array without using reverse function.
 Ans.    const fruit=["banana","Mango","lemon","Orange"];
@@ -68,19 +84,6 @@ Ans.   let arr=["HTML","CSS","JS","React","Redux","NOde","Express","MongoDB"];
               
 Q10.  Create a humamn readable time format using the date time object.
 Ans.     let now=new Date();
-         console.log(now.toString());
+         console.log(now.getFullYear() + "-" + now.getMonth() + "_" + now.getDate()+" " +now.getHour() + " "+ now.getMinutes()+"pm");
          
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
            
